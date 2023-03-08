@@ -1,7 +1,8 @@
+const { DEFAULT_ENCODING } = require("crypto")
 
 const sum = (a,b)=>{
   return a + b
 }
 
 
-module.exports = sum
+export default sum
